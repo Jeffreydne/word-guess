@@ -9,10 +9,15 @@
 <body>
     <header>
         <h1>Welcome to Word Guess</h1>
-        <p>To play click on start button, then press a letter key to guess a letter. If your guess is correct, your choice will appear in the correct place(s) on the screen. You will have 30 seconds.</p>
+        <p>To play click on start button, then press letter keys to guess letters. If your guess is correct, your choice will appear in the correct place(s) on the screen. You will have 30 seconds.</p>
     </header>
     <main>
-        
+        <h2>Time Left: <span id="timeLeft">30</span></h2>
+        <h3>
+            <span id="wins">WINS: 0</span><span id="losses">LOSSES: 0</span>
+        </h3>
+        <p id="word">_ _ _ _ _ _</p>
+        <button>Start Game</button>
     </main>
     
     <script src="./assets/js/main.js"></script>

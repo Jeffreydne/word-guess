@@ -44,3 +44,34 @@ p{
     width: 70%;
     text-align: center;
 }
+main {
+    width: 70%;
+    margin: 150px auto;
+    background-color: wheat;
+    color: darkblue;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+}
+h2 {
+    padding: 10px;
+}
+button {
+    padding: 10px;
+    margin: 10px auto;
+    color: darkblue;
+    border: 2px solid darkblue;
+    box-shadow: 3px 3px gray;
+}
+h3 {
+    display: flex;
+    justify-content: space-around;
+}
+#word {
+    font-size: 250%;
+    font-weight: 800;
+    text-align: center;
+    margin: 30px auto;
+}
