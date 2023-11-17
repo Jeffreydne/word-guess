@@ -23,7 +23,7 @@ input, select, option, textarea, button {
 }
 header {
     width: 100%;
-    height: 18vh;
+    height: 120px;
     position: fixed;
     top: 0;
     background-color: darkblue;
